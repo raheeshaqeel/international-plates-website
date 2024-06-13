@@ -179,3 +179,21 @@ async function initializeMeals() {
         }
     });
 });
+
+// button-up
+const btnUp = document.getElementById("button-up")
+btnUp.addEventListener("click", () =>{
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    })
+})
+
+$(btnUp).hide()
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 200){
+        $(btnUp).show().fadeIn(500)
+    }else{
+        $(btnUp).hide().fadeOut(500)
+    }
+})

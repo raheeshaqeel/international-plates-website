@@ -8472,12 +8472,20 @@ html:has(.drawer-open.drawer-open) {
   top: 50%;
 }
 
-.bottom-4 {
-  bottom: 1rem;
+.bottom-5 {
+  bottom: 1.25rem;
 }
 
-.right-4 {
-  right: 1rem;
+.right-5 {
+  right: 1.25rem;
+}
+
+.bottom-\[6px\] {
+  bottom: 6px;
+}
+
+.right-\[6px\] {
+  right: 6px;
 }
 
 .isolate {
@@ -8717,6 +8725,10 @@ html:has(.drawer-open.drawer-open) {
   height: 100vh;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -8749,8 +8761,12 @@ html:has(.drawer-open.drawer-open) {
   width: 100%;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-12 {
+  width: 3rem;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .max-w-2xl {
@@ -9802,11 +9818,6 @@ html:has(.drawer-open.drawer-open) {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
-.bg-green-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -10433,6 +10444,12 @@ html:has(.drawer-open.drawer-open) {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -10787,6 +10804,11 @@ html:has(.drawer-open.drawer-open) {
     padding-bottom: 4rem;
   }
 
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .sm\:pb-6 {
     padding-bottom: 1.5rem;
   }
@@ -10865,6 +10887,11 @@ html:has(.drawer-open.drawer-open) {
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -10873,6 +10900,11 @@ html:has(.drawer-open.drawer-open) {
   .lg\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .lg\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 
   .lg\:text-5xl {
